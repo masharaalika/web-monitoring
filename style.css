@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  border-radius: 6px;
+  border: none;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #38bdf8;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+
+table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #334155;
+  text-align: left;
+}
+
+#scanResult {
+  margin-top: 15px;
+  background: #020617;
+  padding: 10px;
+  border-radius: 6px;
+}

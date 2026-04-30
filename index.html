@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Barcode Scanner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>📦 Barcode Scanner</h1>
+
+    <!-- Health -->
+    <button id="checkHealth">Check API</button>
+    <p id="healthStatus"></p>
+
+    <!-- Scan -->
+    <div class="card">
+      <h2>Scan Barcode</h2>
+      <input type="text" id="barcodeInput" placeholder="Masukkan barcode..." />
+      <button id="scanBtn">Scan</button>
+
+      <div id="scanResult"></div>
+    </div>
+
+    <!-- History -->
+    <div class="card">
+      <h2>History</h2>
+      <button id="loadHistory">Load History</button>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Kode</th>
+            <th>Nama</th>
+            <th>Merk</th>
+            <th>Waktu</th>
+          </tr>
+        </thead>
+        <tbody id="historyTable"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
